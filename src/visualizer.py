@@ -10,7 +10,6 @@ def plot_paths(paths_XYs, title='Curves'):
     ax.set_aspect('equal')
     ax.set_title(title)
     plt.show()
-
 def plot_two_windows(original_paths, regularized_paths):
     print(f"Original paths: {len(original_paths)}, Regularized paths: {len(regularized_paths)}")
     
